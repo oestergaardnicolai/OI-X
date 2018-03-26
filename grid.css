@@ -1,0 +1,58 @@
+.grid {
+	border: 0px blue solid;
+	width: 100%;
+	height: 2000px;
+	display: grid;
+	grid-template-rows: 3% 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 50% 50%;
+}
+
+.linkgrid
+{
+	border: 0px blue solid;
+	width: 100%;
+	height: 500px;
+	display: grid;
+	grid-template-rows: 13% 1fr;
+}
+
+.box {
+	color: black;
+	border-radius: 5px;
+	border: 0px dodgerblue solid;
+
+}
+
+.ab, .c, .e, .g{
+	background-color: white;
+}
+
+.d, .f, .h{
+	background-color: #F20403;
+}
+
+.ab{
+	color: black;
+	border-radius: 5px;
+	border: 1px gray solid;
+	grid-row-start: ;
+	grid-row-end: ;
+	grid-column-start: ;
+	grid-column-end: ;
+
+}
+
+.ab, .f, .g, .h {
+	grid-column: span 2;
+}
+
+.e {
+	background-color: lightgray;
+}
+
+.d {
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+
